@@ -1,0 +1,17 @@
+{% extends template('page-layout-main') %}
+{% define formdata = {
+    contactUsForm: _view.contactUsForm,
+} %}
+{% block title %}
+    <h1 class="title title--main title--with-border title--medium">Contact Us</h1>
+{% endblock %}
+
+{% block content %}
+
+<div class="container--expand">
+    {{ form_start(formdata.contactUsForm) }}
+    {{ form_errors(formdata.contactUsForm) }}
+    {{ form_end(formdata.contactUsForm) }}
+</div>
+
+{% endblock %}

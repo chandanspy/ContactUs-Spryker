@@ -1,0 +1,22 @@
+{
+    "name": "echidna/contact-us",
+    "description": "Contact Us module for Spryker Shops",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Echidna\\": "src/Echidna"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chandan Kumar",
+            "email": "chandan.k@echidnainc.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=8.0"
+    },
+
+}
